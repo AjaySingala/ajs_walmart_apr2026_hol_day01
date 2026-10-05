@@ -43,7 +43,7 @@ def log_event(event_type: str, data: dict):
     logging.info(json.dumps(log_entry))
 
 
-# TODO: Define a method named "llm_ call".
+# TODO: Define a method named "llm_call".
 # It receives a string argument "prompt" and returns a string.
 # The method should:
 #   - call the LLM with client.chat.completions.create().
